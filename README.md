@@ -93,5 +93,52 @@ In conclusion, Rate Limiting Nullifiers offer a unique approach to manage spam i
 - [(Workshop) Rate Limiting Nullifier](https://www.youtube.com/watch?v=OGhf991iTPc&ab_channel=0xPARCFoundation)
 - [Rate Limiting Nullifier by AtHeartEngineer](https://www.youtube.com/watch?v=vrNiPBfbLw0&ab_channel=EthereumFoundation)
 
+## Milestones
+**Phase 1: Project Setup (done)**
+
+1. Identify the Issue: Define the problem statement and specific objectives. **(done)**
+2. Learning Material: Acquire and document knowledge of required technologies and protocols. **(done)**
+3. Write Project Description: Outline the project's scope, functionality, and intended use. **(done)**
+
+**Phase 2: Initial Development**
+
+4. Add Registration with Merkle Witness: Design and document the registration process incorporating Merkle trees.**(done)**
+5. Create Circuit for Shamir Secret Sharing Generation: Develop a working prototype for generating secrets with a linear equation, targeting one action per epoch. (**WIP**) 
+
+**Phase 3: Integration and Enhancement (WIP)**
+
+6. Integrate Circuit with SmartContract: Combine the cryptographic circuit with blockchain smart contracts in a test environment.
+7. Extend SSS Circuit for Multiple Actions per Epoch: Research scalability solutions and enhance the circuit to support more actions.
+
+**Phase 4: Economic Model and Security**
+
+8. Implement Staking Mechanism during Registration: Code the logic for users to stake cryptocurrency as part of the registration.
+9. Develop Withdrawing Mechanism: Create a secure process for users to withdraw their funds.
+10. Design Slashing System: Establish a system to penalize dishonest or faulty participants.
+
+**Phase 5: Testing and Optimization**
+
+11. Testing Work Correctness: Execute detailed unit and component tests to ensure system correctness.
+12. Testing with Blockchain: Perform comprehensive integration tests with the blockchain.
+13. Performance Optimization: After testing, identify performance bottlenecks and optimize the system.
+
+**Phase 6: Data Management and Deployment**
+
+14. Integrate with zkDB or another existed solution for Data Storing
+15. Deploy to npm Repository: Finalize the package for deployment, ensuring it has proper versioning and documentation.
+
+**Phase 7: Quality Assurance and Documentation**
+
+16. Code Review and Refactoring: Prior to smart contract integration, review and improve the codebase for maintainability.
+17. Security Audits: After initial testing, conduct security audits on smart contracts and cryptographic components.
+18. Documentation and Developer Guides: Throughout the testing phase, compile detailed documentation and guides for developers.
+
+**Phase 8: Post-Deployment**
+
+19. User Acceptance Testing: After security audits, validate the system with end-users to ensure it meets user requirements.
+20. Monitoring and Analytics Integration: Post-deployment, integrate monitoring tools to track system performance and usage.
+21. Community Engagement and Feedback Loop: Create forums and channels for user feedback to inform future project updates.
+Each phase should conclude with a review and retrospective to ensure that the project is on track and to integrate any learnings into future phases. This structured approach allows you to manage the project efficiently and adapt as necessary.
+
 ## License
 This project is licensed under the Apache License 2.0 - see the LICENSE file for details.
