@@ -17,13 +17,13 @@ In the context of spam protection, we can use the concept of nullifiers to limit
 5. **Anonymity**: The system only sees and stores nullifiers. It doesn't know which user corresponds to which nullifier unless the same user tries to perform the action again in the same time frame.
 
 ### Merkle Membership:
-Merkle Trees provide a structure where membership of a specific item can be proven without revealing the entire set. In the context of rate limiting nullifiers, Merkle Trees can be used to validate whether a nullifier has been used within a given timeframe without exposing the entire list of nullifiers, thus preserving anonymity.
+Merkle Trees provides a structure where membership of a specific item can be proven without revealing the entire set. In the context of rate-limiting nullifiers, Merkle Trees can be used to validate whether a nullifier has been used within a given timeframe without exposing the entire list of nullifiers, thus preserving anonymity.
 
 ### Slashing Members:
 Slashing is a mechanism used in many cryptographic systems to punish bad actors. If a user tries to abuse the rate-limiting system, for instance, by using the same nullifier multiple times in a short span, they can be "slashed" or penalized, possibly by losing some form of collateral or being temporarily banned.
 
 ### Shamir Secret Sharing:
-Shamir's Secret Sharing is a cryptographic method that allows a secret to be divided into multiple parts, where a specific number of parts are needed to reconstruct the original secret. This can be integrated into the rate limiting system to distribute the user's secret into multiple parts, further ensuring security and flexibility in the system.
+Shamir's Secret Sharing is a cryptographic method that allows a secret to be divided into multiple parts, where a specific number of parts are needed to reconstruct the original secret. This can be integrated into the rate-limiting system to distribute the user's secret into multiple parts, further ensuring security and flexibility in the system.
 
 ## Circuit Description for Rate Limiting Nullifier
 The circuitry in the Rate Limiting Nullifier ensures the correct operations and security of the protocol. Here's an organized overview of its structure and functions:
@@ -83,10 +83,10 @@ In cases where members of the system act maliciously or break protocol rules, me
 
 - **Voting Systems**: Ensuring one vote per user in anonymous voting systems.
 
-- **Feedback Systems**: Allowing users to provide feedback anonymously but prevent spamming or ballot-stuffing.
+- **Feedback Systems**: Allowing users to provide feedback anonymously but preventing spamming or ballot-stuffing.
 
 
-In conclusion, Rate Limiting Nullifiers offer a unique approach to manage spam in systems where user anonymity is paramount.
+In conclusion, Rate Limiting Nullifiers offers a unique approach to managing spam in systems where user anonymity is paramount.
 
 ## Resources:
 - [Specification](https://hackmd.io/tMTLMYmTR5eynw2lwK9n1w?both)
@@ -112,7 +112,7 @@ In conclusion, Rate Limiting Nullifiers offer a unique approach to manage spam i
 
 **Phase 4: Economic Model and Security**
 
-8. Implement Staking Mechanism during Registration: Code the logic for users to stake cryptocurrency as part of the registration.
+8. Implement a Staking Mechanism during Registration: Code the logic for users to stake cryptocurrency as part of the registration.
 9. Develop Withdrawing Mechanism: Create a secure process for users to withdraw their funds.
 10. Design Slashing System: Establish a system to penalize dishonest or faulty participants.
 
@@ -124,7 +124,7 @@ In conclusion, Rate Limiting Nullifiers offer a unique approach to manage spam i
 
 **Phase 6: Data Management and Deployment**
 
-14. Integrate with zkDB or another existed solution for Data Storing
+14. Integrate with zkDB or another existing solution for Data Storing
 15. Deploy to npm Repository: Finalize the package for deployment, ensuring it has proper versioning and documentation.
 
 **Phase 7: Quality Assurance and Documentation**
@@ -138,7 +138,6 @@ In conclusion, Rate Limiting Nullifiers offer a unique approach to manage spam i
 19. User Acceptance Testing: After security audits, validate the system with end-users to ensure it meets user requirements.
 20. Monitoring and Analytics Integration: Post-deployment, integrate monitoring tools to track system performance and usage.
 21. Community Engagement and Feedback Loop: Create forums and channels for user feedback to inform future project updates.
-Each phase should conclude with a review and retrospective to ensure that the project is on track and to integrate any learnings into future phases. This structured approach allows you to manage the project efficiently and adapt as necessary.
 
 ## License
 This project is licensed under the Apache License 2.0 - see the LICENSE file for details.
